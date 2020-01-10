@@ -2,11 +2,11 @@ def reverse_each_word(string)
   new = []
   new << string
   puts "========"
-  puts new
+  pp new
   puts "========"
   new.collect {|w| w.reverse}
   puts "********"
-  puts new
+  pp new
   puts "********"
   new[0]
 end
