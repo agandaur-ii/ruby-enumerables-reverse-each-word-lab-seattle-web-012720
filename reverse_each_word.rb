@@ -1,6 +1,9 @@
 def reverse_each_word(string)
   new = []
   new << string
+  puts "========"
+  puts new
+  puts "========"
   new.collect {|w| w.reverse}
   new[0]
 end
